@@ -1,0 +1,32 @@
+﻿<Window x:Class="kalapacsvetes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kalapacsvetes"
+        mc:Ignorable="d"
+        Title="London 2012 - Férfi kalapácsvetés - selejtező" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Válasszon versenyzőt!" Grid.Row="0"/>
+        <ComboBox Name="cbxAthletes" Grid.Row="1" Margin="0,10,0,10">
+            <!-- Az elemeket a kódbehind-ban kell hozzáadni -->
+        </ComboBox>
+        <Label Name="lblGroup" Content="Csoport: B" Grid.Row="2"/>
+        <Label Name="lblCountry" Content="Nemzet: Magyarország" Grid.Row="3"/>
+        <Label Name="lblCountryCode" Content="Nemzet kód: HUN" Grid.Row="4"/>
+        <Label Name="lblResult" Content="Eredmény: 79,37" Grid.Row="5"/>
+        <Label Content="Zászló:" Grid.Row="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Margin="0,10,0,0">
+            <Image Name="imgFlag" Stretch="Fill"/>
+        </Border>
+    </Grid>
+</Window>

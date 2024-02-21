@@ -1,0 +1,5 @@
+C:\Users\Ákos\source\repos\kalapacsvetes\kalapacsvetes\obj\Debug\net6.0-windows\kalapacsvetes.csproj.AssemblyReference.cache
+C:\Users\Ákos\source\repos\kalapacsvetes\kalapacsvetes\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Ákos\source\repos\kalapacsvetes\kalapacsvetes\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Ákos\source\repos\kalapacsvetes\kalapacsvetes\obj\Debug\net6.0-windows\kalapacsvetes_MarkupCompile.cache
+C:\Users\Ákos\source\repos\kalapacsvetes\kalapacsvetes\obj\Debug\net6.0-windows\kalapacsvetes_MarkupCompile.lref
